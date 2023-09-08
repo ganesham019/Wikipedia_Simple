@@ -1,0 +1,58 @@
+@use "../abstracts" as *;
+.hero {
+  text-align: center;
+  padding: 20px;
+  .hero_content {
+    padding: 20px;
+    text-align: center;
+    &_title {
+      font-size: $md_1000;
+      line-height: 1.5;
+      color: $dark;
+    }
+    &_input {
+      @include flexBox(flex-start, center);
+      max-width: 380px;
+      margin: auto;
+      input {
+        border: 1px solid $gray_500;
+        padding: 10px;
+        font-size: $xs;
+        min-width: 320px;
+        text-transform: capitalize;
+        border: 1px solid $gray_500;
+        outline: none;
+        &:focus {
+          border: 1px solid $primary;
+        }
+      }
+      .search_box {
+        cursor: pointer;
+        background-color: $primary;
+        padding: 11px;
+        width: 60px;
+        svg {
+          width: 20px;
+          height: 20px;
+          path {
+            fill: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+.border_line{
+    border-top: 1px solid $gray_500;
+    margin: 0px 20px;
+}
+.site-license{
+    padding: 20px;
+    font-size: 12px;
+    .site{
+        margin: 0px 6px;
+    }
+}
+.primary_btn{
+    margin: 20px auto;
+}

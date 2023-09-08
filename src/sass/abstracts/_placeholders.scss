@@ -1,0 +1,9 @@
+@use '../abstracts/variable' as *;
+%font_basic{
+    font-size: $sm;
+    color: $dark;
+    text-transform: capitalize;
+}
+%nav_link{
+    color: $primary;
+}

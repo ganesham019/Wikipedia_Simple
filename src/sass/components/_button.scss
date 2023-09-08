@@ -1,0 +1,8 @@
+@use '../abstracts' as *;
+.primary_btn{
+    padding: 10px 30px;
+    font-size: $sm;
+    color: #fff;
+    background-color: $primary;
+    cursor: pointer;
+}
