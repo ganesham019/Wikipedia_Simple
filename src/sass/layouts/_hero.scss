@@ -10,36 +10,36 @@
       line-height: 1.5;
       color: $dark;
     }
-    &_input {
-      @include flexBox(flex-start, center);
-      max-width: 380px;
-      margin: auto;
-      input {
-        border: 1px solid $gray_500;
-        padding: 10px;
-        font-size: $xs;
-        min-width: 320px;
-        text-transform: capitalize;
-        border: 1px solid $gray_500;
-        outline: none;
-        &:focus {
-          border: 1px solid $primary;
-        }
-      }
-      .search_box {
-        cursor: pointer;
-        background-color: $primary;
-        padding: 11px;
-        width: 60px;
-        svg {
-          width: 20px;
-          height: 20px;
-          path {
-            fill: #ffffff;
-          }
-        }
-      }
-    }
+    // &_input {
+    //   @include flexBox(flex-start, center);
+    //   max-width: 380px;
+    //   margin: auto;
+    //   input {
+    //     border: 1px solid $gray_500;
+    //     padding: 10px;
+    //     font-size: $xs;
+    //     min-width: 320px;
+    //     text-transform: capitalize;
+    //     border: 1px solid $gray_500;
+    //     outline: none;
+    //     &:focus {
+    //       border: 1px solid $primary;
+    //     }
+    //   }
+    //   .search_box {
+    //     cursor: pointer;
+    //     background-color: $primary;
+    //     padding: 11px;
+    //     width: 60px;
+    //     svg {
+    //       width: 20px;
+    //       height: 20px;
+    //       path {
+    //         fill: #ffffff;
+    //       }
+    //     }
+    //   }
+    // }
   }
 }
 .border_line{

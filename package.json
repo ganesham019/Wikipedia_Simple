@@ -42,5 +42,9 @@
     "> 1%",
     "iOS 7",
     "last 3 iOS versions"
-  ]
+  ],
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^1.5.0"
+  }
 }

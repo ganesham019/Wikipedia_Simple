@@ -1,8 +1,8 @@
 @use "../abstracts" as *;
-.books {
+.support {
   padding: 50px;
   @include flexBox(flex-start, flex-start);
-  .books_media {
+  .support_media {
     @include flexBox(flex-start, center);
     flex-direction: column;
     width: 400px;
@@ -17,7 +17,7 @@
       }
     }
   }
-  .books_menu {
+  .support_menu {
     width: 100%;
     @include flexBox(flex-start, center);
     flex-wrap: wrap;
@@ -29,6 +29,7 @@
       padding: 10px 20px ;
       min-height: 78px;
       text-decoration: none;
+      cursor: pointer;
       &_det {
         margin-left: 10px;
         .main_text {
